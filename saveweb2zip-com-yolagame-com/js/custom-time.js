@@ -1,0 +1,1 @@
+jQuery(document).ready(function($){var myVar=setInterval(function(){myTimer();},100);function myTimer(){var timeElement=document.getElementById("time");if(timeElement){var d=new Date();timeElement.innerHTML=d.toLocaleTimeString();}}});
